@@ -24,7 +24,8 @@ JsAndroidDemo
         window.jsObj.androidMethod("参数");
 <br/>
 ###注意: <br/>
-        > Java中提供给javascript调用的方法必须加@JavascriptInterface注解否则会报错<br/>(Uncaught TypeError: window.jsObj.androidMethod is not a function)
+        > Java中提供给javascript调用的方法必须加@JavascriptInterface注解否则会报错
+        >(Uncaught TypeError: window.jsObj.androidMethod is not a function)
 ###关于作者
 * Email： 172308834@qq.com
 * Blog :  [Eicky](http://eicky.com)
