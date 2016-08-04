@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-store,no-cache">
+    <meta name="Handheldfriendly" content="true">
+    <meta name="viewport" content="width=100%; initial-scale=1.0; user-scalable=yes">
+    <meta name="robots" content="all">
+    <meta name="keywords" contect="doodle, mobile, doodlemobile, game, games">
+    <meta name="description" content="Make People&#39;s Mobile Life More Connected Through Games.">
+    <title>jsandroid_test</title>
+    <script type="text/javascript" language="javascript">
+    function jsMethod(msg){
+        var str = document.getElementById("id_input").value;
+        //调用android中的方法
+        window.jsObj.androidMethod(str);
+        document.getElementById("id_input3").value = "我是Android传过来的参数:" + msg;
+        }
+    
+
+
+    </script>
+
+
+</head>
+
+
+<body>
+
+Hello Eicky
+
+<br>
+<br>
+<br>
+<br>
+
+这个输入框用来传值给Android
+<input id="id_input" style="width: 90%" type="text" value="eicky"/>
+<br>
+<br>
+<br>
+
+这个输入框用来接收android传过来的值
+<input id="id_input3" style="width: 90%" type="text" value=""/>
+<br>
+<br>
+<br>
+</body>
+
+
+</html>
